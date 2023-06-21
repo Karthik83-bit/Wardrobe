@@ -1,0 +1,84 @@
+.men-page{
+    background-color: black;
+    min-height: 100vh;;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner{
+    width:100%;
+    background-color: grey;
+    height:50vh;
+    margin:auto 0;
+    
+}
+.style-static{
+    margin:150px 0;
+    height:80vh;
+    display: flex;
+    position: relative;
+}
+.hero-img-wrap{
+    align-self: flex-end;
+    display: flex;
+}
+.hero-img{
+    height: 80vh;
+    margin-left: auto;
+    /* width:600px; */
+    object-fit: contain;
+    align-self: flex-end;
+    position: absolute;
+    right: 0;
+    top:-100px
+}
+.hero-cont>h1{
+    position: absolute;
+    top:-30px;
+    left:-70px;
+    font-size: 10.3em;
+    max-width: 60vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-fill-color: transparent;
+}
+.hero-cont span{
+    -webkit-text-stroke-color: white;
+}
+.hero-decor{
+    position: absolute;
+    width:400px;
+    height:400px;
+    /* background-color: aliceblue; */
+    right: 40px;
+}
+.hero-white-decor{
+    border:2px solid white;
+    transform: rotate(30deg);
+}
+.hero-wood-decor{
+border:2px solid yellow;
+transform: rotate(36deg);
+}
+.brands{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.brand-img-wrap{
+    margin:40px;
+    height: 250px;
+    width:220px ;
+    box-shadow: 2px 2px 10px grey;
+}
+.brand-img{
+    margin: 10px;
+    height: 200px;
+    max-width: 200px;
+    object-fit: contain;
+}
+.logo-wrap{
+    max-height: 8vh;
+    margin: 0;
+}

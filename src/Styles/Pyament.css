@@ -1,0 +1,24 @@
+.PaymentPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width:100vw;
+    overflow: hidden;
+    background-color: black;
+}
+.model{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self:center;
+    border-radius: 50%;
+    max-width: 400px;
+    width:100%;
+    max-height: 400px;
+    height: 100%;
+    background-color: black;
+    box-shadow: 0.5px 0.5px 15px rgba(12, 216, 29, 0.3);
+}

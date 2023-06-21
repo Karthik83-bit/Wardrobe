@@ -1,0 +1,59 @@
+.cart-page{
+    background-color: black;
+    min-height:100vh;
+    color:white;
+    display: flex;
+}
+section{
+    width: 50vw;
+}
+.payment-info{
+     margin: 40px auto;
+     max-width: 60%;
+     height:80vh;
+     background-color: rgb(31, 30, 30);
+}
+.upi-img{
+    width:40px
+}
+.cart-items-wrap{
+    margin: 20px;
+}
+.payment-info>p,.order-form label,.payment-mode-wrap>p,.cart-content>p,head{
+    text-align: left;
+    padding: 5px;
+    margin: 10px ;
+    border-bottom: 2px solid grey;
+    font-size: 1.2em;
+
+}
+.payment-mode-wrap>p{
+    display: block;
+}
+.payment-mode-wrap div{
+    display: flex;
+}
+.payment-mode-wrap div{
+    margin: auto;
+}
+.payment-mode-wrap div label{
+    border: none;
+}
+.order-form>form{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    margin: 5px;
+    min-height: 150px;
+    max-height: 170px;
+}
+.order-form input[type=submit]{
+    color: white;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    margin:40px auto;
+    background-color: rgb(39, 38, 38);
+    box-shadow: 1px 1px 5px grey;
+}

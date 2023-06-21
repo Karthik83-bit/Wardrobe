@@ -1,0 +1,13 @@
+.product-page{
+   
+
+    background-color: black;
+    min-width: 100vw;
+    overflow-x: hidden;
+    min-height: 90vh;
+}
+
+.product-card-wrap{
+    display:flex;
+    flex-wrap: wrap;
+}

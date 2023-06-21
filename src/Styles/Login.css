@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.authpage{
+    max-width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: rgb(1, 1, 1);
+    max-width: 450px;
+    width:100%;
+    height:max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* align-items: center; */
+    border-radius: 25pxpx;
+    box-shadow: 0.5px 0.5px 5px gray;
+   
+}
+
+.inp-wrap{
+    max-height: 6vh;
+    height: 100%;
+    max-width: 300px;
+    /* padding: 1em; */
+   
+    border-radius: 5px;
+    /* background-color: rgb(12, 12, 12); */
+    position:relative;
+    margin: 20px;
+
+}
+section{
+    max-width: 50vw;
+    width:100%
+}
+.right-side{
+    width:70vw;
+}
+.right-img-wrap>img{
+    max-width: 50vw;
+    width:100%;
+    object-fit: cover;
+    height: 100vh;
+    /* background:  */
+    -webkit-mask-image:linear-gradient(to right,rgba(0, 0, 0, 0), rgba(0,0,0,1));;
+}
+ input[type=text],input[type=password],input[type=email]{
+    max-height: 6vh;
+    height: 100%;
+    width: 400px;
+    /* width: 100%; */
+    padding: 1em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid rgb(33, 33, 33);
+    /* border-radius: 25px; */
+} 
+.inp:active~.inp-label{
+    transform: translateY(-150%);
+    font-size: 13px;
+}
+.inp:valid~.inp-label,.inp:hover~.inp-label{
+    transform: translateY(-150%);
+    font-size: 13px;
+}
+
+.inp:valid{
+    border-bottom:2px solid green
+}
+/* .inp:invalid{
+    border: 2px solid red;
+} */
+.inp{
+    border: 2px solid white;
+}
+.form label{
+    /* color: black; */
+    position: absolute;
+    pointer-events: none;
+    left:15px;
+    top:50%;
+    transform: translateY(-50%);
+    /* background-color: rgb(12, 12, 12); */
+    font-size: 16px;
+}
+input[type=submit]{
+    background-color: silver;
+    height:6vh;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border:none;
+}
+input[type=submit]::after{
+    position: absolute;
+    top:100px;
+     content:"";
+    background-color: silver;
+    height:6vh;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border:none;
+    /* -webkit-box-reflect: below 5px -webkit-gradient:(); */
+}
